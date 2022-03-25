@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TBCInsiders.Management.ApplicationCore\TBCInsiders.Management.ApplicationCore.csproj" />
+    <ProjectReference Include="..\TBCInsiders.Management.Infrastructure\TBCInsiders.Management.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\User\" />
+  </ItemGroup>
+
+</Project>
